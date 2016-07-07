@@ -1,0 +1,22 @@
+body {
+  background-color: blue;
+}
+.header {
+  color: #ffffff;
+}
+
+ul {
+  background-color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 200px;
+  width: 150px;
+  float: left;
+  display: grid;
+  list-style: none;
+}
+
+button {
+  display: block;
+  margin: auto;
+}

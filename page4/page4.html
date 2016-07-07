@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A Web Page</title>
+    <link rel="stylesheet" href="p4style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Lists</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="main-title">Your Information:</h1>
+    <form>
+      <fieldset class="account-info">
+        <label>
+          Name
+          <input type="text" name="name">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email-address">
+        </label>
+        <label>
+          Phone
+          <input type="tel" name="telephone">
+        </label>
+      </fieldset>
+      <fieldset>
+        <input type="radio" name="resident" value="From Colorado"> From Colorado
+        <input type="radio" name="resident" value="Not From Colorado"> Not From Colorado
+      </fieldset>
+      <input class="account-send" type="submit" name="submit" value="Submit">
+    </form>
+  </body>
+</html>
